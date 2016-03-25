@@ -1,0 +1,27 @@
+{
+  "name": "Angular2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "tsc": "tsc -p app -w --outDir build",
+    "live": "live-server",
+    "start": "npm run live"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.2",
+    "live-server":"^0.8.2"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.7",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "^0.19.23",
+    "zone.js": "0.5.15"
+  },
+  "keywords": [],
+  "author": "Amit Dwivedi",
+  "license": "MIT"
+}
